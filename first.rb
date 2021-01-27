@@ -98,6 +98,9 @@ conoceRuby = nil #null value
 #    puts i
 #end
 
-File.open("users.txt", "r") do |file|
-    puts file.read().include? ", Dan"
-end #help to close file
+#FIles
+#File.open("users.txt", "r") do |file|
+#    puts file.read().include? ", Dan"
+#end #help to close file
+
+####ERRORS####
