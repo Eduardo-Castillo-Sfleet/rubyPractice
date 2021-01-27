@@ -78,8 +78,14 @@ conoceRuby = nil #null value
 #
 #puts get_name_day("wen")
 
-i = 0
-while i <= 5
-    puts i
-    i += 1
+#i = 0
+#while i <= 5
+#    puts i
+#    i += 1
+#end
+
+vocales = ['a', 'e', 'i', 'o', 'u']
+
+for vocal in vocales do
+    puts vocal
 end
