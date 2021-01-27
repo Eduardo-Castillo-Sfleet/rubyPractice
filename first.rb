@@ -43,3 +43,19 @@ conoceRuby = nil #null value
 #
 #puts ages["Borja"]
 #puts ages[:Jesus]
+
+######METHODS########
+def greeting(nombre="Harland")
+    return "hello" + nombre
+end
+
+puts (greeting("Armando"))
+greeting
+
+isMale = false
+
+if isMale
+    puts "Male"
+else
+    puts "Not male"
+end
