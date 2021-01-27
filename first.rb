@@ -97,3 +97,7 @@ conoceRuby = nil #null value
 #6.times do |i|
 #    puts i
 #end
+
+File.open("users.txt", "r") do |file|
+    puts file.read().include? ", Dan"
+end #help to close file
