@@ -45,17 +45,35 @@ conoceRuby = nil #null value
 #puts ages[:Jesus]
 
 ######METHODS########
-def greeting(nombre="Harland")
-    return "hello" + nombre
+#def greeting(nombre="Harland")
+#    return "hello" + nombre
+#end
+#
+#puts (greeting("Armando"))
+#greeting
+#
+#isMale = false
+#
+#if isMale
+#    puts "Male"
+#else
+#    puts "Not male"
+#end
+
+def get_name_day(day="tue")
+    name_day = ""
+    case day
+    when "mon"
+        name_day = "Monday"
+    when "tue"
+        name_day = "Tuesday"
+    when "wen"
+        name_day = "Wendsday"
+    else
+        name_day = "No day detected"
+    end
+
+    return name_day
 end
 
-puts (greeting("Armando"))
-greeting
-
-isMale = false
-
-if isMale
-    puts "Male"
-else
-    puts "Not male"
-end
+puts get_name_day("wen")
