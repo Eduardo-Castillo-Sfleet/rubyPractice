@@ -84,8 +84,16 @@ conoceRuby = nil #null value
 #    i += 1
 #end
 
-vocales = ['a', 'e', 'i', 'o', 'u']
+#vocales = ['a', 'e', 'i', 'o', 'u']
+#
+#for vocal in vocales do
+#    puts vocal
+#end
 
-for vocal in vocales do
-    puts vocal
-end
+#for n in 1..5
+#    puts n
+#end
+
+#6.times do |i|
+#    puts i
+#end
