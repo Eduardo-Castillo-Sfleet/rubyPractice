@@ -104,3 +104,12 @@ conoceRuby = nil #null value
 #end #help to close file
 
 ####ERRORS####
+#numbers = [1,2,3,4,5,6,7]
+#begin
+#    numbers["a"]
+#    num = 10 / 0
+#rescue ZeroDivisionError
+#    puts "NO se acepta división entre 0"
+#rescue TypeError
+#    puts "Tipo de dato erroneo"
+#end
