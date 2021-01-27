@@ -6,5 +6,13 @@ programador = true
 conoceRuby = nil #null value
 
 
-puts (nombre[-2].upcase() + " tiene " + edad.to_s)
+puts (nombre[-2].upcase() + nombre + " tiene " + edad.to_s)
 puts edad - 5
+
+puts "Ingresa tu nombre: "
+nombre = gets.chomp() #quits enter on input
+puts "Nuevo nombre: " + nombre + " eres genial"
+
+puts "Ingresa tu edad: "
+edad = gets.chomp() #quits enter on input
+puts "Nuevo edad: " + edad.to_s + " eres genial"
