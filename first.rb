@@ -6,4 +6,5 @@ programador = true
 conoceRuby = nil #null value
 
 
-puts nombre.upcase()
+puts (nombre[-2].upcase() + " tiene " + edad.to_s)
+puts edad - 5
