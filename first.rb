@@ -60,20 +60,26 @@ conoceRuby = nil #null value
 #    puts "Not male"
 #end
 
-def get_name_day(day="tue")
-    name_day = ""
-    case day
-    when "mon"
-        name_day = "Monday"
-    when "tue"
-        name_day = "Tuesday"
-    when "wen"
-        name_day = "Wendsday"
-    else
-        name_day = "No day detected"
-    end
+#def get_name_day(day="tue")
+#    name_day = ""
+#    case day
+#    when "mon"
+#        name_day = "Monday"
+#    when "tue"
+#        name_day = "Tuesday"
+#    when "wen"
+#        name_day = "Wendsday"
+#    else
+#        name_day = "No day detected"
+#    end
+#
+#    return name_day
+#end
+#
+#puts get_name_day("wen")
 
-    return name_day
+i = 0
+while i <= 5
+    puts i
+    i += 1
 end
-
-puts get_name_day("wen")
