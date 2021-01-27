@@ -32,5 +32,14 @@ conoceRuby = nil #null value
 #
 #puts elArray.reverse()
 
-numerosP = Array[5,3,7,2,11]
-puts numerosP.sort()
+#numerosP = Array[5,3,7,2,11]
+#puts numerosP.sort()
+
+#ages = {
+#    "Armando" => 18,
+#    :Jesus => 17,
+#    "Borja" => 9
+#}
+#
+#puts ages["Borja"]
+#puts ages[:Jesus]
