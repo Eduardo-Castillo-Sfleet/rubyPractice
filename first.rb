@@ -113,3 +113,20 @@ conoceRuby = nil #null value
 #rescue TypeError
 #    puts "Tipo de dato erroneo"
 #end
+
+####classes####
+class Book
+    attr_accessor :title, :author, :pages
+    
+    def initialize(title, author, pages)
+        @title = title
+        @author = author
+        @pages = pages
+        puts "Creando libro..."
+    end
+end
+
+book1 = Book.new("Viaje al centro", "Julio Verne", 98)
+book2 = Book.new("Harry Potter", "JK Rowling", 900)
+
+puts book1.title, book2.title
