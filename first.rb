@@ -115,18 +115,51 @@ conoceRuby = nil #null value
 #end
 
 ####classes####
-class Book
-    attr_accessor :title, :author, :pages
-    
-    def initialize(title, author, pages)
-        @title = title
-        @author = author
-        @pages = pages
-        puts "Creando libro..."
+#class Book
+#    attr_accessor :title, :author, :pages
+#    
+#    def initialize(title, author, pages)
+#        @title = title
+#        @author = author
+#        @pages = pages
+#        puts "Creando libro..."
+#    end
+#
+#    def is_big
+#        if @pages >= 500
+#            return true
+#        end
+#        return false
+#    end
+#end
+#
+#book1 = Book.new("Viaje al centro", "Julio Verne", 98)
+#book2 = Book.new("Harry Potter", "JK Rowling", 900)
+#
+#puts book1.title, book2.title
+#puts book1.is_big() , book2.is_big()
+
+class Chef
+
+    def cook_dinner
+        puts "Dinner"
+    end
+
+    def cook_supper
+        puts "Supper"
     end
 end
 
-book1 = Book.new("Viaje al centro", "Julio Verne", 98)
-book2 = Book.new("Harry Potter", "JK Rowling", 900)
+class ItalianChef < Chef
+    def cook_spaghetti
+        puts "spaghetti"
+    end
 
-puts book1.title, book2.title
+end
+
+chef1 = Chef.new()
+chef1.cook_supper()
+
+chefIta1 = ItalianChef.new()
+chefIta1.cook_spaghetti()
+chefIta1.cook_supper()
